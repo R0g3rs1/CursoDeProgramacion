@@ -1,0 +1,19 @@
+int main() {
+int FECHAS [3][3];
+	for (int i = 1;i<=3;i++){
+		printf("\n\n\n PIBE/A %d",i);
+		printf("\n INGRESE FECHA DE NACIMIENTO");
+		printf("\n Ingrese dia de nacimiento:");
+		scanf("%d",&FECHAS [i-1][1]);
+        printf("\n Ingrese mes de nacimiento:");
+		scanf("%d",&FECHAS [i-1][2]);
+		printf("\n Ingrese año de nacimiento:");
+		scanf("%d",&FECHAS [i-1][3]);}
+	
+	printf("PERSONA DIA MES AÑO\n");
+	for (int i = 1;i<=3;i++){
+	printf(" %d        %d   %d   %d \n",i,FECHAS [i-1][1],FECHAS [i-1][2],FECHAS [i-1][3]);}
+		
+		
+    return 0;
+}
