@@ -1,6 +1,8 @@
+#include <stdio.h>
+
 int main() {
     
-int matriz [3][3];
+int matriz [9][3];
     //+     COL1 COL2 COL3
     // FILA1
     // FILA2
@@ -8,7 +10,7 @@ int matriz [3][3];
 
 
 	//ACA SE DEFINE EL INGRESO DE DATOS
-	for (int i = 1;i<=7;i++){
+	for (int i = 1;i<=9;i++){
 		printf("\n PIBE/A %d\n",i);
 		for (int j=1;j<=3;j++){
 			printf("INGRESE EL DATO DE LA PIBE/A %d DD/MM/AAAA %d :",i,j);
@@ -17,7 +19,7 @@ int matriz [3][3];
 	
 	printf("\n\n\n\n");
 	//ACA SE DEFINE EL MSJ EN LA PANTALLA DE LOS INGRESOS DE DATOS
-	    for(int i=1;i<=7;i++){
+	    for(int i=1;i<=9;i++){
 	        
 	        for(int j=1;j<=3;j++){
 	            printf(" %d ",matriz [i][j]);
